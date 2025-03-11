@@ -1,0 +1,149 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*Team Section*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;/*Team Section*/
+  --color-primary-variant-light: #b7e3fa;/*Team Section*/
+  --color-secondary-light: #f7a173;/*Team Section*/
+  --color-secondary-variant-light: #eddfa6;/*Team Section*/
+  --color-neutral-light: #f8f6f1;/*Team Section*/
+
+  --gold: #BC955C;/*Team Section*/
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;/*Team Section*/
+  --color-primary-variant-dark: #0D81BF;/*Team Section*/
+  --color-secondary-dark: #984714;/*Team Section*/
+  --color-secondary-variant-dark: #87721C;/*Team Section*/
+  --color-neutral-dark: #A38C52;/*Team Section*/
+
+  --color-footer: #691b31;/*Team Section*/
+}/*Team Section*/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*Team Section*/
+  font-family: 'Montserrat', sans-serif;/*Team Section*/
+  -webkit-font-smoothing: antialiased;/*Team Section*/
+  /* font-smoothing: antialiased; */
+  font-size: 18px;/*Team Section*/
+  /*text color*/
+  color: #025C9A;/*Team Section*/
+  font-weight: 400;/*Team Section*/
+  line-height: 1.8;/*Team Section*/
+}/*Team Section*/
+
+h1,/*Team Section*/
+h2,/*Team Section*/
+h3,/*Team Section*/
+h4,/*Team Section*/
+h5,/*Team Section*/
+h6 {/*Team Section*/
+  margin: 0 0 15px;/*Team Section*/
+  padding: 0;/*Team Section*/
+  letter-spacing: 0;/*Team Section*/
+  font-weight: 500;/*Team Section*/
+  font-family: 'Montserrat', serif;/*Team Section*/
+  color: #1b1644;/*Team Section*/
+  line-height: normal;/*Team Section*/
+  letter-spacing: 1px;/*Team Section*/
+}/*Team Section*/
+
+/* ===================================
+    Section heading
+====================================== */
+.section-heading {/*Team Section*/
+  margin-bottom: 50px;/*Team Section*/
+  text-align: center; }/*Team Section*/
+  .section-heading.half {/*Team Section*/
+    margin-bottom: 30px; }/*Team Section*/
+  .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {/*Team Section*/
+    position: relative;/*Team Section*/
+    padding-bottom: 10px;/*Team Section*/
+    font-weight: 700;/*Team Section*/
+    margin-bottom: 10px;/*Team Section*/
+    position: relative;/*Team Section*/
+    line-height: 140%; }/*Team Section*/
+  .section-heading h1:after, .section-heading h2:after, .section-heading h3:after, .section-heading h4:after, .section-heading h5:after, .section-heading h6:after {/*Team Section*/
+    content: '';/*Team Section*/
+    display: block;/*Team Section*/
+    width: 100px;/*Team Section*/
+    height: 2px;/*Team Section*/
+    background: #027871ff;/*Team Section*/
+    margin: 0 auto;/*Team Section*/
+    position: absolute;/*Team Section*/
+    left: 0;/*Team Section*/
+    right: 0;/*Team Section*/
+    bottom: 0; }/*Team Section*/
+  .section-heading strong {/*Team Section*/
+    font-weight: 600; }/*Team Section*/
+  .section-heading p {/*Team Section*/
+    font-size: 15px;/*Team Section*/
+    font-weight: 400;/*Team Section*/
+    padding-top: 15px;/*Team Section*/
+    margin: 0 auto; }/*Team Section*/
+
+/* team style */
+.team-style {/*Team Section*/
+  background: #ecf7fe;/*Team Section*/
+  overflow: hidden;/*Team Section*/
+}
+
+.team-style .team-img {/*Team Section*/
+  width: 100%;/*Team Section*/
+  height: auto;/*Team Section*/
+  border-radius: 4px;/*Team Section*/
+}/*Team Section*/
+
+.team-style .team-img img {/*Team Section*/
+  border-radius: 4px;/*Team Section*/
+}/*Team Section*/
+
+.team-style .team-details {/*Team Section*/
+  transition: all 0.4s ease-in-out;/*Team Section*/
+  text-align: center;/*Team Section*/
+  padding: 20px;/*Team Section*/
+  background: #ecf7fe;/*Team Section*/
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.1);/*Team Section*/
+  width: 90%;/*Team Section*/
+  margin: -30px auto 20px auto;/*Team Section*/
+  position: relative;/*Team Section*/
+  z-index: 1;/*Team Section*/
+  border-radius: 4px;/*Team Section*/
+}/*Team Section*/
+
+.team-style .team-details h4 {/*Team Section*/
+  font-size: 18px;/*Team Section*/
+  font-weight: 500;/*Team Section*/
+  line-height: normal;/*Team Section*/
+  margin-bottom: 4px;/*Team Section*/
+}/*Team Section*/
+

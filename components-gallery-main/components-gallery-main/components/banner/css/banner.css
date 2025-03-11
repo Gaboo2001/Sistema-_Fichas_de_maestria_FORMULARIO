@@ -1,0 +1,158 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*banner*/
+  /* Paleta Oficial - Light */ 
+ 
+  --color-primary-light: #10a5b2; 
+  --color-primary-variant-light: #b7e3fa; 
+  --color-secondary-light: #f7a173; 
+  --color-secondary-variant-light: #eddfa6; 
+  --color-neutral-light: #f8f6f1; 
+ 
+  --gold: #BC955C; 
+ 
+  /* Paleta Oficial - Dark */ 
+ 
+  --color-primary-dark: #006971; 
+  --color-primary-variant-dark: #0D81BF; 
+  --color-secondary-dark: #984714; 
+  --color-secondary-variant-dark: #87721C; 
+  --color-neutral-dark: #A38C52; 
+ 
+  --color-footer: #691b31; 
+}/*banner*/
+/*============================== 
+    Google fonts
+================================*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+body {/*banner*/
+  font-family: 'Montserrat', sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+  /* font-smoothing: antialiased; */ 
+  font-size: 18px; 
+  /*text color*/ 
+  color: #025C9A; 
+  font-weight: 400; 
+  line-height: 1.8; 
+}/*banner*/
+/*banner*/
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 { 
+  margin: 0 0 15px; 
+  padding: 0; 
+  letter-spacing: 0; 
+  font-weight: 500; 
+  font-family: 'Montserrat', serif; 
+  color: #1b1644; 
+  line-height: normal; 
+  letter-spacing: 1px; 
+}/*banner*/
+.bg-img {/*banner*/
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}/*banner*/
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {/*banner*/
+  body { 
+    font-size: 17px; 
+  } 
+}/*banner*/
+    /* button style */
+  .butn {/*banner*/
+  background: #282b2d; 
+  color: #fff; 
+  text-align: center; 
+  border-radius: 2px; 
+  padding: .75rem 1.75rem; 
+  line-height: 1.6; 
+  font-weight: 500; 
+  letter-spacing: 0.6px; 
+  text-transform: none !important; 
+  position: relative; 
+  z-index: 9999; 
+  display: inline-block; 
+  white-space: nowrap; 
+  border: none; 
+  cursor: pointer; 
+  -moz-transition: width .4s; 
+  -ms-transition: width .4s; 
+  -webkit-transition: width .4s; 
+  -o-transition: width .4s; 
+  transition: width .4s;  
+}/*banner*/
+    .butn.theme {/*banner*/
+      background: #027871; 
+      color: #fff; }/*banner*/
+      .butn.theme span {
+        color: #fff; }
+      .butn.theme:hover {
+        color: #fff;
+        border-radius: 3px; }
+      .butn.theme:after {
+        background: #282b2d;
+        border-radius: 2px; }
+      .butn.theme.white-hover:hover {
+        color: #282b2d; }
+        .butn.theme.white-hover:hover span {
+          color: #282b2d; }
+      .butn.theme.white-hover:after {
+        background: #fff;
+        border-radius: 3px; }
+    .butn.white.theme-hover:hover {
+      color: #fff; }
+      .butn.white.theme-hover:hover span {
+        color: #fff; }
+    .butn.white.theme-hover:after {
+      background: #027871;
+      border-radius: 3px; }
+    .butn.md-lg {
+      padding: 16px 30px; }
+    .butn.sm-lg {
+      padding: 14px 28px; }
+    .butn.wide {
+      letter-spacing: 5px; }
+    .butn.md-wide {
+      letter-spacing: 4px; }
+    .butn.sm-wide {
+      letter-spacing: 3px; }
+    .butn.xs-wide {
+      letter-spacing: 2px; }
+    .butn.small {
+      padding: 8px 20px; }
+    .butn.medium {
+      padding: 10px 20px; }

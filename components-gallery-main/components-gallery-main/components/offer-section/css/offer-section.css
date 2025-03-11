@@ -1,0 +1,265 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*offer*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;/*offer*/
+  --color-primary-variant-light: #b7e3fa;/*offer*/
+  --color-secondary-light: #f7a173;/*offer*/
+  --color-secondary-variant-light: #eddfa6;/*offer*/
+  --color-neutral-light: #f8f6f1;/*offer*/
+
+  --gold: #BC955C;/*offer*/
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;/*offer*/
+  --color-primary-variant-dark: #0D81BF;/*offer*/
+  --color-secondary-dark: #984714;/*offer*/
+  --color-secondary-variant-dark: #87721C;/*offer*/
+  --color-neutral-dark: #A38C52;/*offer*/
+
+  --color-footer: #691b31;/*offer*/
+}/*offer*/
+
+@media screen and (max-width: 991px) {/*offer*/
+  .project-grid-style3 .inner-box .project-desc {/*offer*/
+    padding: 25px; }/*offer*/
+    .project-grid-style3 .inner-box .project-desc h3 {/*offer*/
+      font-size: 18px; } }/*offer*/
+@media screen and (max-width: 767px) {/*offer*/
+  .project-grid-style3 .inner-box .overlay-inner {/*offer*/
+    padding: 15px; }/*offer*/
+  .project-grid-style3 .inner-box .text {/*offer*/
+    margin-bottom: 15px; } }/*offer*/
+
+    /* services block one */
+.owl-carousel .service-box {/*offer*/
+  margin: 0 15px 25px 15px; }/*offer*/
+
+.service-box {/*offer*/
+  background: #fff;/*offer*/
+  overflow: hidden;/*offer*/
+  border: 1px solid #eee;/*offer*/
+  border-radius: 5px;/*offer*/
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);/*offer*/
+  margin: 15px 0;/*offer*/
+  transition-duration: .3s; }/*offer*/
+
+.service-inner-box {/*offer*/
+  padding: 20px; }/*offer*/
+.service-box h3 {/*offer*/
+  font-size: 16px;/*offer*/
+  margin-bottom: 0;/*offer*/
+  line-height: normal;/*offer*/
+  font-weight: 500; }/*offer*/
+.service-box p {/*offer*/
+  margin-top: 5px;/*offer*/
+  margin-bottom: 0; }/*offer*/
+
+@media screen and (max-width: 575px) {/*offer*/
+  .owl-carousel .service-box {/*offer*/
+    margin: 0 15px 20px 15px; }/*offer*/
+
+  .service-box i {/*offer*/
+    font-size: 24px; }/*offer*/
+  .service-box h3 {/*offer*/
+    font-size: 15px; } }/*offer*/
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*offer*/
+  font-family: 'Montserrat', sans-serif;/*offer*/
+  -webkit-font-smoothing: antialiased;/*offer*/
+  /* font-smoothing: antialiased; */
+  font-size: 18px;/*offer*/
+  /*text color*/
+  color: #025C9A;/*offer*/
+  font-weight: 400;/*offer*/
+  line-height: 1.8;/*offer*/
+}/*offer*/
+
+h1,/*offer*/
+h2,/*offer*/
+h3,/*offer*/
+h4,/*offer*/
+h5,/*offer*/
+h6 {/*offer*/
+  margin: 0 0 15px;/*offer*/
+  padding: 0;/*offer*/
+  letter-spacing: 0;/*offer*/
+  font-weight: 500;/*offer*/
+  font-family: 'Montserrat', serif;/*offer*/
+  color: #1b1644;/*offer*/
+  line-height: normal;/*offer*/
+  letter-spacing: 1px;/*offer*/
+}/*offer*/
+
+@media screen and (min-width: 1200px) {/*offer*/
+  .container {/*offer*/
+    max-width: 1170px;/*offer*/
+    width: 100%;/*offer*/
+  }/*offer*/
+}/*offer*/
+
+@media screen and (max-width: 1199px) {/*offer*/
+  body {/*offer*/
+    font-size: 17px;/*offer*/
+  }/*offer*/
+}/*offer*/
+
+/* ===================================
+    Section heading
+====================================== */
+.section-heading {/*offer*/
+  margin-bottom: 50px;/*offer*/
+  text-align: center; }/*offer*/
+  .section-heading.half {/*offer*/
+    margin-bottom: 30px; }/*offer*/
+  .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {/*offer*/
+    position: relative;/*offer*/
+    padding-bottom: 10px;/*offer*/
+    font-weight: 700;/*offer*/
+    margin-bottom: 10px;/*offer*/
+    position: relative;/*offer*/
+    line-height: 140%; }/*offer*/
+  .section-heading h1:after, .section-heading h2:after, .section-heading h3:after, .section-heading h4:after, .section-heading h5:after, .section-heading h6:after {/*offer*/
+    content: '';/*offer*/
+    display: block;/*offer*/
+    width: 100px;/*offer*/
+    height: 2px;/*offer*/
+    background: #027871ff;/*offer*/
+    margin: 0 auto;/*offer*/
+    position: absolute;/*offer*/
+    left: 0;/*offer*/
+    right: 0;/*offer*/
+    bottom: 0; }/*offer*/
+  .section-heading p {/*offer*/
+    font-size: 15px;/*offer*/
+    font-weight: 400;/*offer*/
+    padding-top: 15px;/*offer*/
+    margin: 0 auto; }/*offer*/
+
+@media screen and (max-width: 991px) {/*offer*/
+  .section-heading {/*offer*/
+    margin-bottom: 30px; }/*offer*/
+    .section-heading p {/*offer*/
+      padding-top: 10px;/*offer*/
+      font-size: 14px; }/*offer*/
+    .section-heading.half {/*offer*/
+      margin-bottom: 20px; } }/*offer*/
+
+.title-style2 {/*offer*/
+  position: relative;/*offer*/
+  padding-bottom: 20px;/*offer*/
+  margin-bottom: 0;/*offer*/
+  text-transform: uppercase; }/*offer*/
+  .title-style2:after {/*offer*/
+    content: '';/*offer*/
+    width: 60px;/*offer*/
+    height: 2px;/*offer*/
+    background: #027871ff;/*offer*/
+    position: absolute;/*offer*/
+    bottom: 0;/*offer*/
+    left: calc(50% - 30px); }/*offer*/
+  .title-style2:before {/*offer*/
+    content: '';/*offer*/
+    height: 1px;/*offer*/
+    background: rgba(0, 0, 0, 0.2);/*offer*/
+    position: absolute;/*offer*/
+    bottom: 0;/*offer*/
+    left: 0;/*offer*/
+    right: 0;/*offer*/
+    margin: 0 auto;/*offer*/
+    width: 250px; }/*offer*/
+
+.service-inner-box {/*offer*/
+  padding: 20px; }/*offer*/
+  .service-box .img-holder:before {/*offer*/
+    background-color: hsla(176, 97%, 24%, 0.6);/*offer*/
+    bottom: 0;/*offer*/
+    content: "";/*offer*/
+    height: 100%;/*offer*/
+    left: 0;/*offer*/
+    opacity: 0;/*offer*/
+    position: absolute;/*offer*/
+    top: auto;/*offer*/
+    transition: all 0.3s ease 0s;/*offer*/
+    width: 100%;/*offer*/
+    z-index: 10; }/*offer*/
+.service-box:hover .img-holder:before {
+  opacity: 1; }
+.service-box .img-holder img {
+  width: 100%; }
+.service-box h3 {/*offer*/
+  font-size: 16px;/*offer*/
+  margin-bottom: 0;/*offer*/
+  line-height: normal;/*offer*/
+  font-weight: 500; }/*offer*/
+.service-box p {/*offer*/
+  margin-top: 5px;/*offer*/
+  margin-bottom: 0; }/*offer*/
+
+@media screen and (max-width: 575px) {/*offer*/
+  .owl-carousel .service-box {/*offer*/
+    margin: 0 15px 20px 15px; }/*offer*/
+
+  .service-box i {/*offer*/
+    font-size: 24px; }/*offer*/
+  .service-box h3 {/*offer*/
+    font-size: 15px; } }/*offer*/
+
+.owl-nav i {/*offer*/
+  color: #282b2d;/*offer*/
+  font-size: 18px;/*offer*/
+  padding-top: 6px; }/*offer*/
+.owl-nav .owl-next {/*offer*/
+  color: #027871ff;/*offer*/
+  font-size: 43px;/*offer*/
+  text-align: center;/*offer*/
+  width: 40px;/*offer*/
+  height: 40px;/*offer*/
+  background: #F5F5F5ff !important; }/*offer*/
+.owl-nav .owl-prev {/*offer*/
+  color: #027871ff;/*offer*/
+  font-size: 43px;/*offer*/
+  text-align: center;/*offer*/
+  width: 40px;/*offer*/
+  height: 40px;/*offer*/
+  background: #F5F5F5ff !important;/*offer*/
+  left: 0;/*offer*/
+  -webkit-transition: all .4s ease 0s;/*offer*/
+  transition: all .4s ease 0s;/*offer*/
+  -webkit-box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1);/*offer*/
+  -moz-box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1);/*offer*/
+  box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1); }/*offer*/
+.owl-nav .owl-next {/*offer*/
+  -webkit-transition: all .4s ease 0s;/*offer*/
+  transition: all .4s ease 0s;/*offer*/
+  -webkit-box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1);/*offer*/
+  -moz-box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1);/*offer*/
+  box-shadow: 0 5px 28px 0 rgba(50, 50, 50, 0.1); }/*offer*/

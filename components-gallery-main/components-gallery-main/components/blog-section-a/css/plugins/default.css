@@ -1,0 +1,117 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Multipurpose Responsive + Admin
+    Description: Multipurpose Responsive + Admin
+    Author: Chitrakoot Web
+    Version: 3.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Background color
+    05. Custom
+    06. Border
+    07. Background image
+    08. Margin
+    09. Padding
+    10. Display and float
+    11. Position
+    12. Width
+    13. Responsive Media Query
+    
+---------------------------------- */
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; } /* blog a  */
+body{ font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:15px; color:#5e6973; font-weight: 400;line-height: 26px; } /* blog a */
+body, html { -moz-osx-font-smoothing: grayscale; }/*blog s*/
+p {margin: 0 0 20px; word-spacing: 1px;}/*blog a*/
+::selection { color: #000; background:#dbdbdb; } /* blog a */
+::-moz-selection { color:#000; background:#dbdbdb; }
+::-webkit-input-placeholder { color: #6f6f6f; text-overflow: ellipsis;}
+::-moz-placeholder { color: #6f6f6f; text-overflow: ellipsis; opacity:1;} 
+:-ms-input-placeholder { color: #6f6f6f; text-overflow: ellipsis; opacity:1;}
+
+/* ===================================
+    Typography
+====================================== */
+
+/* font family */
+.alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+.main-font {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 20px; padding:0; letter-spacing: 0; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #282b2d; line-height: normal;}
+h1,.h1 {font-size:42px;}
+h2,.h2 {font-size:34px;}
+h3,.h3 {font-size:32px;}
+h4,.h4 {font-size:30px;}
+h5,.h5 {font-size:26px;}
+h6,.h6 {font-size:22px;}
+.border-bottom {border-bottom: 1px solid;}/*blog a*/
+.padding-25px-bottom {padding-bottom:25px;}/*blog a*/
+.width-55 {width:55%;}/*blog a*/
+/*================================
+    Responsive Media Query
+================================*/
+
+@media (max-width: 1199px) {
+    
+    section {padding: 70px 0;}
+    section.lg {padding: 90px 0; }
+    .md-height-auto { height: auto; }
+
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 18px; padding:0; letter-spacing: 0; }
+    h1 {font-size:40px;}
+    h2 {font-size:32px;}
+    h3 {font-size:30px;}
+    h4 {font-size:28px;}
+    h5 {font-size:24px;}
+    h6 {font-size:20px;}
+}
+@media (max-width: 991px) {
+
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 16px; padding:0; letter-spacing: 0;} /*blog a*/
+    h1 {font-size:38px;}
+    h2 {font-size:30px;}
+    h3 {font-size:28px;}
+    h4 {font-size:26px;}
+    h5 {font-size:22px;}
+    h6 {font-size:18px;}
+    p { margin: 0 0 15px; } /*blog a*/
+    .sm-padding-15px-bottom {padding-bottom:15px !important;} /*blog a*/
+    .sm-width-75 {width:75%;}/*blog a*/
+}
+
+@media (max-width: 767px) {
+
+    body { font-size: 14px; } /* blog a */
+
+    h1, h2, h3, h4, h5, h6 {margin:0 0 14px; padding:0; letter-spacing: 0;}
+    h1 {font-size:34px;}
+    h2 {font-size:28px;}
+    h3 {font-size:26px;}
+    h4 {font-size:24px;}
+    h5 {font-size:20px;}
+    h6 {font-size:16px;}
+    .xs-margin-30px-bottom {margin-bottom:30px !important;}/*blog a*/
+    .xs-width-95 {width:95%;}/*blog a*/
+}

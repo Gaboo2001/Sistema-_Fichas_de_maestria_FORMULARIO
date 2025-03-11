@@ -1,0 +1,113 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Multipurpose Responsive + Admin
+    Description: Multipurpose Responsive + Admin
+    Author: Chitrakoot Web
+    Version: 3.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Background color
+    05. Custom
+    06. Border
+    07. Background image
+    08. Margin
+    09. Padding
+    10. Display and float
+    11. Position
+    12. Width
+    13. Responsive Media Query
+    
+---------------------------------- */
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }/*form*/
+body{ font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:15px; color:#5e6973; font-weight: 400;line-height: 26px; }/*form*/
+input, select, textarea{ border: 1px solid rgba(0, 0, 0, 0.1); font-size: 14px;  padding: 10px 15px; width: 100%; max-width: 100%; resize: none; border-radius: 2px; height: 48px; }/*form*/
+textarea { height: auto; }/*form*/
+input[type="button"], input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"] { -webkit-appearance: none; outline: none;}/*form*/
+::selection { color: #000; background:#dbdbdb; }/*form*/
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 20px; padding:0; letter-spacing: 0; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #282b2d; line-height: normal;}/*form*/
+h1,.h1 {font-size:42px;}/*form*/
+h2,.h2 {font-size:34px;}/*form*/
+h3,.h3 {font-size:32px;}/*form*/
+h4,.h4 {font-size:30px;}/*form*/
+h5,.h5 {font-size:26px;}/*form*/
+h6,.h6 {font-size:22px;}/*form*/
+.bg-white {background-color:#fff;}/*form*/
+.border-color-light-black { border-color:rgba(0, 0, 0, 0.075) !important; } /*form*/
+.margin-25px-bottom {margin-bottom:25px;}/*form*/
+.margin-50px-left {margin-left:50px;}/*form*/
+.margin-nineteen-half-lr {margin-left:19.5%; margin-right:19.5%;}/*form*/
+.padding-40px-all {padding:40px;}/*form*/
+
+/*================================
+    Responsive Media Query
+================================*/
+
+@media (max-width: 1199px) {
+    
+    section {padding: 70px 0;}
+    section.lg {padding: 90px 0; }
+    .md-height-auto { height: auto; }
+
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 18px; padding:0; letter-spacing: 0; }/*form*/
+    h1 {font-size:40px;}/*form*/
+    h2 {font-size:32px;}/*form*/
+    h3 {font-size:30px;}/*form*/
+    h4 {font-size:28px;}/*form*/
+    h5 {font-size:24px;}/*form*/
+    h6 {font-size:20px;}/*form*/
+}
+
+@media (max-width: 1050px) {
+    .parallax {background-attachment: inherit;}
+}
+
+@media (max-width: 991px) {
+    .sm-height-auto { height: auto; }
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 16px; padding:0; letter-spacing: 0;}/*form*/
+    h1 {font-size:38px;}/*form*/
+    h2 {font-size:30px;}/*form*/
+    h3 {font-size:28px;}/*form*/
+    h4 {font-size:26px;}/*form*/
+    h5 {font-size:22px;}/*form*/
+    h6 {font-size:18px;}/*form*/
+    p { margin: 0 0 15px; }/*form*/
+    .sm-no-margin-left {margin-left:0 !important;}/*form*/
+}/*form*/
+
+@media (max-width: 767px) {/*form*/
+    body { font-size: 14px; }/*form*/
+    .xs-height-auto { height: auto; }/*form*/
+    h1, h2, h3, h4, h5, h6 {margin:0 0 14px; padding:0; letter-spacing: 0;}/*form*/
+    h1 {font-size:34px;}/*form*/
+    h2 {font-size:28px;}/*form*/
+    h3 {font-size:26px;}/*form*/
+    h4 {font-size:24px;}/*form*/
+    h5 {font-size:20px;}/*form*/
+    h6 {font-size:16px;}/*form*/
+    .xs-padding-30px-all {padding:30px !important;}/*form*/
+}/*form*/
+

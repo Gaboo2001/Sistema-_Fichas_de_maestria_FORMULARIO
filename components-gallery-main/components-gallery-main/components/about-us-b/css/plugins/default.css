@@ -1,0 +1,142 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Multipurpose Responsive + Admin
+    Description: Multipurpose Responsive + Admin
+    Author: Chitrakoot Web
+    Version: 3.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Background color
+    05. Custom
+    06. Border
+    07. Background image
+    08. Margin
+    09. Padding
+    10. Display and float
+    11. Position
+    12. Width
+    13. Responsive Media Query
+    
+---------------------------------- */
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; } /* ABOUT US B */
+body{ font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:15px; color:#5e6973; font-weight: 400;line-height: 26px; } /* ABOUT US B */
+body, html { -moz-osx-font-smoothing: grayscale; } /* ABOUT US B */
+a, a:active, a:focus { color: #5e6973; text-decoration: none; transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -ms-transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;  } /* ABOUT US B */
+a:hover, a:active{color: #282b2d; text-decoration: none;} /* ABOUT US B */
+p {margin: 0 0 20px; word-spacing: 1px;} /* ABOUT US B */
+::selection { color: #000; background:#dbdbdb; } /* ABOUT US B */
+::-moz-selection { color:#000; background:#dbdbdb; }
+::-webkit-input-placeholder { color: #6f6f6f; text-overflow: ellipsis;}
+::-moz-placeholder { color: #6f6f6f; text-overflow: ellipsis; opacity:1;} 
+:-ms-input-placeholder { color: #6f6f6f; text-overflow: ellipsis; opacity:1;}
+
+/* ===================================
+    Typography
+====================================== */
+
+/* font family */
+.alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+.main-font {font-family: 'Montserrat', sans-serif; font-weight: 500;}
+/* ABOUT US B */
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 20px; padding:0; letter-spacing: 0; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #282b2d; line-height: normal;}
+h1,.h1 {font-size:42px;}
+h2,.h2 {font-size:34px;}
+h3,.h3 {font-size:32px;}
+h4,.h4 {font-size:30px;}
+h5,.h5 {font-size:26px;}
+h6,.h6 {font-size:22px;}
+/* ABOUT US B */
+/* font size */
+.font-size18 {font-size:18px;} /* ABOUT US B */
+.font-weight-600 {font-weight:600;} /* ABOUT US B */
+.bg-light-gray {background-color:#f7faff;} /* ABOUT US B */
+.center-col {float:none; margin-left:auto; margin-right:auto; } /* ABOUT US B */
+section {padding: 90px 0; overflow: hidden; background: #fff;} /* ABOUT US B */
+section.lg {padding: 120px 0; }
+[data-overlay-dark],[data-overlay-light] { position: relative;} /* ABOUT US B */
+[data-overlay-dark]:before,[data-overlay-light]:before {content: ''; position: absolute; width: 100%; height: 100%; top: 0; left: 0;  z-index: 1;} /* ABOUT US B */
+[data-overlay-dark]:before { background: rgba(0, 0, 0, 0.35); } /* ABOUT US B */
+[data-overlay-light="0"]:before {  opacity: 0; } /* ABOUT US B */
+.opacity-extra-medium {position: absolute; height: 100%; width: 100%; opacity: 0.5; top:0; left: 0;} /* ABOUT US B */
+.opacity2 {opacity:.2;} /* ABOUT US B */
+.z-index-1 {z-index:1;} /* ABOUT US B */
+.absolute-middle-center {left: 50%; top: 50%; position: absolute; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); } /* ABOUT US B */
+.border-left {border-left: 1px solid;} /* ABOUT US B */
+.inner-border{ border: 8px solid rgba(255,255,255,0.35); height: calc(100% - 40px); width: calc(100% - 40px); left: 20px; top: 20px; position: absolute;} /* ABOUT US B */
+.cover-background {position: relative !important; background-size: cover !important; overflow: hidden !important; background-position: center !important; background-repeat: no-repeat !important;} 
+.no-margin {margin:0 !important;} /* ABOUT US B */
+.no-margin-bottom {margin-bottom:0 !important;} /* ABOUT US B */
+.margin-10px-bottom {margin-bottom:10px;} /* ABOUT US B */
+.margin-10px-right {margin-right:10px;} /* ABOUT US B */
+.padding-30px-right {padding-right:30px;} /* ABOUT US B */
+.padding-30px-left {padding-left:30px;} /* ABOUT US B */
+/*================================
+    Responsive Media Query
+================================*/
+
+
+@media (max-width: 1199px) {
+    
+    section {padding: 70px 0;} /* ABOUT US B */
+    section.lg {padding: 90px 0; }
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 18px; padding:0; letter-spacing: 0; } /* ABOUT US B */
+    h1 {font-size:40px;} 
+    h2 {font-size:32px;} 
+    h3 {font-size:30px;} 
+    h4 {font-size:28px;} 
+    h5 {font-size:24px;} 
+    h6 {font-size:20px;} /* ABOUT US B */
+}
+
+@media (max-width: 991px) {
+
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 16px; padding:0; letter-spacing: 0;} /* ABOUT US B */
+    h1 {font-size:38px;}
+    h2 {font-size:30px;}
+    h3 {font-size:28px;}
+    h4 {font-size:26px;}
+    h5 {font-size:22px;}
+    h6 {font-size:18px;}
+    p { margin: 0 0 15px; } /* ABOUT US B */
+    section {padding: 50px 0;} /* ABOUT US B */
+    section.lg {padding: 70px 0; }
+    .sm-margin-30px-bottom {margin-bottom:30px !important;} /* ABOUT US B */ 
+}
+
+@media (max-width: 767px) {
+
+    body { font-size: 14px; } /* ABOUT US B */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 14px; padding:0; letter-spacing: 0;} /* ABOUT US B */
+    h1 {font-size:34px;} 
+    h2 {font-size:28px;} 
+    h3 {font-size:26px;} 
+    h4 {font-size:24px;} 
+    h5 {font-size:20px;} 
+    h6 {font-size:16px;} /* ABOUT US B */
+    .xs-font-size16 {font-size:16px;} /* ABOUT US B */
+    .xs-margin-20px-bottom {margin-bottom:20px !important;} /* ABOUT US B */
+    .xs-padding-20px-left {padding-left:20px !important;} /* ABOUT US B */
+}

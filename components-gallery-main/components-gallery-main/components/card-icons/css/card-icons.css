@@ -1,0 +1,181 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*card icons*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;
+  --color-primary-variant-light: #b7e3fa;
+  --color-secondary-light: #f7a173;
+  --color-secondary-variant-light: #eddfa6;
+  --color-neutral-light: #f8f6f1;
+
+  --gold: #BC955C;
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;
+  --color-primary-variant-dark: #0D81BF;
+  --color-secondary-dark: #984714;
+  --color-secondary-variant-dark: #87721C;
+  --color-neutral-dark: #A38C52;
+
+  --color-footer: #691b31;
+}/*card icons*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*card icons*/
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+  font-size: 18px;
+  /*text color*/
+  color: #025C9A;
+  font-weight: 400;
+  line-height: 1.8;
+}/*card icons*/
+.section-heading {/*card icons*/
+  margin-bottom: 50px;
+  text-align: center; }/*card icons*/
+  .section-heading p {/*card icons*/
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+    margin: 0 auto; }/*card icons*/
+@media screen and (max-width: 991px) {
+  .section-heading {/*card icons*/
+    margin-bottom: 30px; }/*card icons*/
+    .section-heading p {/*card icons*/
+      padding-top: 10px;
+      font-size: 14px; }/*card icons*/
+    }
+.section-heading.title-style4 p {/*card icons*/
+  padding-top: 0; }/*card icons*/
+.service-block4 {/**/
+  position: relative;
+  border: 1px solid #f7f7f7;
+  background: #F5F5F5ff;
+  box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 30px; }/**/
+  .service-block4:before {/**/
+    position: absolute;
+    top: -42px;
+    right: -100px;
+    z-index: 0;
+    content: " ";
+    width: 250px;
+    height: 120px;
+    background: #f7f7f7;
+    border-bottom-left-radius: 0;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(45deg);
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out; }/**/
+  .service-block4:hover:before {/**/
+    background: #027871ff; }/**/
+  .service-block4 .service-icon {/**/
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 1;
+    text-align: center; }/**/
+  .service-block4 i {/**/
+    color: #027871ff;
+    font-size: 38px;
+    line-height: normal;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    margin-bottom: 0; }
+  .service-block4:hover i {/**/
+    color: #F5F5F5ff; }
+  .service-block4 .service-desc {/**/
+    position: relative; }
+    .service-block4 .service-desc h4 {/**/
+      margin-bottom: 8px;
+      font-size: 18px;
+      font-weight: 600; }
+    .service-block4 .service-desc h5 {/**/
+      margin-bottom: 5px;
+      font-size: 12px;
+      font-weight: 500; }
+      .service-block4 .service-desc h5:after {/**/
+        content: '';
+        display: block;
+        width: 80px;
+        height: 2px;
+        background: #027871ff;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        -moz-transition-duration: .4s;
+        -ms-transition-duration: .4s;
+        -webkit-transition-duration: .4s;
+        -o-transition-duration: .4s;
+        transition-duration: .4s; }
+  .service-block4 p {/**/
+    margin-top: 25px;
+    padding-right: 50px;
+    margin-bottom: 0; }
+
+@media screen and (max-width: 1199px) {
+  .service-block4:before {/**/
+    right: -110px; }
+  .service-block4 .service-desc h4 {/**/
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .service-block4 p {/**/
+    padding-right: 40px;
+    margin-top: 20px; }
+  .service-block4 i {/**/
+    font-size: 34px; } }
+@media screen and (max-width: 991px) {
+  .service-block4 {/*card icons*/
+    padding: 25px; }/*card icons*/
+    .service-block4 .service-desc h4 {/**/
+      font-size: 15px; }
+    .service-block4 i {/**/
+      font-size: 32px; }
+    .service-block4 p {/**/
+      margin-top: 15px;
+      padding-right: 30px; } }
+@media screen and (max-width: 767px) {
+  .service-block4 {/*card icons*/
+    padding: 20px; }/*card icons*/
+    .service-block4:before {/**/
+      right: -130px; }
+    .service-block4 i {/**/
+      font-size: 28px; }
+    .service-block4 .service-icon {/**/
+      top: 13px;
+      right: 12px; } }

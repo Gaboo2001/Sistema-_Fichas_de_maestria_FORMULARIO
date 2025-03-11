@@ -1,0 +1,22 @@
+
+/*============================== 
+    Common Styles
+================================*/
+body {/* ABOUT-US-A */
+  font-family: 'Montserrat', sans-serif;/* ABOUT-US-A */
+  -webkit-font-smoothing: antialiased;/* ABOUT-US-A */
+  /* font-smoothing: antialiased; */
+  font-size: 18px;/* ABOUT-US-A */
+  /*text color*/
+  color: #025C9A;/* ABOUT-US-A */
+  font-weight: 400;/* ABOUT-US-A */
+  line-height: 1.8;/* ABOUT-US-A */
+}/* ABOUT-US-A */
+
+
+@media screen and (max-width: 1199px) {/* ABOUT-US-A */
+  body {/* ABOUT-US-A */
+    font-size: 17px;/* ABOUT-US-A */
+  }/* ABOUT-US-A */
+}/* ABOUT-US-A */
+

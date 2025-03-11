@@ -1,0 +1,134 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*Services*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;/*Services*/
+  --color-primary-variant-light: #b7e3fa;/*Services*/
+  --color-secondary-light: #f7a173;/*Services*/
+  --color-secondary-variant-light: #eddfa6;/*Services*/
+  --color-neutral-light: #f8f6f1;/*Services*/
+
+  --gold: #BC955C;/*Services*/
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;/*Services*/
+  --color-primary-variant-dark: #0D81BF;/*Services*/
+  --color-secondary-dark: #984714;/*Services*/
+  --color-secondary-variant-dark: #87721C;/*Services*/
+  --color-neutral-dark: #A38C52;/*Services*/
+
+  --color-footer: #691b31;/*Services*/
+}/*Services*/
+
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*Services*/
+  font-family: 'Montserrat', sans-serif;/*Services*/
+  -webkit-font-smoothing: antialiased;/*Services*/
+  /* font-smoothing: antialiased; *//*Services*/
+  font-size: 18px;/*Services*/
+  /*text color*//*Services*/
+  color: #025C9A;/*Services*/
+  font-weight: 400;/*Services*/
+  line-height: 1.8;/*Services*/
+}/*Services*/
+
+h1,/*Services*/
+h2,/*Services*/
+h3,/*Services*/
+h4,/*Services*/
+h5,/*Services*/
+h6 {/*Services*/
+  margin: 0 0 15px;/*Services*/
+  padding: 0;/*Services*/
+  letter-spacing: 0;/*Services*/
+  font-weight: 500;/*Services*/
+  font-family: 'Montserrat', serif;/*Services*/
+  color: #1b1644;/*Services*/
+  line-height: normal;/*Services*/
+  letter-spacing: 1px;/*Services*/
+}/*Services*/
+
+.text-theme-color {/*Services*/
+  color: #027871;/*Services*/
+}/*Services*/
+
+/* button styles*/
+.btn {/*Services*/
+  display: inline-block;/*Services*/
+  font-size: 16px;/*Services*/
+  padding: 9px 18px;/*Services*/
+  border-radius: 4px;/*Services*/
+  background: transparent;/*Services*/
+  border: 2px solid #027871;/*Services*/
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 1px;/*Services*/
+  color: #027871;/*Services*/
+  letter-spacing: .5px;/*Services*/
+  line-height: inherit;/*Services*/
+  border-radius: 3px;/*Services*/
+  font-family: 'DM Sans', sans-serif;/*Services*/
+  font-weight: 600;/*Services*/
+  transition-duration: 0.3s;/*Services*/
+  transition-timing-function: ease-in-out;/*Services*/
+}/*Services*/
+
+/* ===================================
+    Section heading
+====================================== */
+.section-heading {/*Services*/
+  margin-bottom: 50px;/*Services*/
+  text-align: center; }/*Services*/
+  .section-heading.half {/*Services*/
+    margin-bottom: 30px; }/*Services*/
+  .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {/*Services*/
+    position: relative;/*Services*/
+    padding-bottom: 10px;/*Services*/
+    font-weight: 700;/*Services*/
+    margin-bottom: 10px;/*Services*/
+    position: relative;/*Services*/
+    line-height: 140%; }/*Services*/
+  .section-heading h1:after, .section-heading h2:after, .section-heading h3:after, .section-heading h4:after, .section-heading h5:after, .section-heading h6:after {/*Services*/
+    content: '';/*Services*/
+    display: block;/*Services*/
+    width: 100px;/*Services*/
+    height: 2px;/*Services*/
+    background: #027871ff;/*Services*/
+    margin: 0 auto;/*Services*/
+    position: absolute;/*Services*/
+    left: 0;/*Services*/
+    right: 0;/*Services*/
+    bottom: 0; }/*Services*/
+    
+  .section-heading p {/*Services*/
+    font-size: 15px;/*Services*/
+    font-weight: 400;/*Services*/
+    padding-top: 15px;/*Services*/
+    margin: 0 auto; }/*Services*/
+  

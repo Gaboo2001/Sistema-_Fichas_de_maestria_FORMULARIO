@@ -1,0 +1,101 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*form*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;/*form*/
+  --color-primary-variant-light: #b7e3fa;/*form*/
+  --color-secondary-light: #f7a173;/*form*/
+  --color-secondary-variant-light: #eddfa6;/*form*/
+  --color-neutral-light: #f8f6f1;/*form*/
+
+  --gold: #BC955C;/*form*/
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;/*form*/
+  --color-primary-variant-dark: #0D81BF;/*form*/
+  --color-secondary-dark: #984714;/*form*/
+  --color-secondary-variant-dark: #87721C;/*form*/
+  --color-neutral-dark: #A38C52;/*form*/
+
+  --color-footer: #691b31;/*form*/
+}/*form*/
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*form*/
+  font-family: 'Montserrat', sans-serif;/*form*/
+  -webkit-font-smoothing: antialiased;/*form*/
+  /* font-smoothing: antialiased; */
+  font-size: 18px;/*form*/
+  /*text color*/
+  color: #025C9A;/*form*/
+  font-weight: 400;/*form*/
+  line-height: 1.8;/*form*/
+}/*form*/
+
+input,/*form*/
+select,/*form*/
+textarea {/*form*/
+  font-size: 16px;/*form*/
+}/*form*/
+
+@media screen and (max-width: 1199px) {/*form*/
+  body {/*form*/
+    font-size: 17px;/*form*/
+  }/*form*/
+}/*form*/
+
+/* button styles*/
+.btn {/*form*/
+  display: inline-block;/*form*/
+  font-size: 16px;/*form*/
+  padding: 9px 18px;/*form*/
+  border-radius: 4px;/*form*/
+  background: transparent;/*form*/
+  border: 2px solid #027871;/*form*/
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 1px;/*form*/
+  color: #027871;/*form*/
+  letter-spacing: .5px;/*form*/
+  line-height: inherit;/*form*/
+  border-radius: 3px;/*form*/
+  font-family: 'DM Sans', sans-serif;/*form*/
+  font-weight: 600;/*form*/
+  transition-duration: 0.3s;/*form*/
+  transition-timing-function: ease-in-out;/*form*/
+}/*form*/
+
+.quform-elements .quform-element textarea {/*form*/
+  margin-bottom: 0;/*form*/
+  padding: 12px 15px;/*form*/
+  vertical-align: top;/*form*/
+}/*form*/
+
+.quform-submit-inner {/*form*/
+  float: none;/*form*/
+}/*form*/

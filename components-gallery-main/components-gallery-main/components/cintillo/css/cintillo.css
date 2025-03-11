@@ -1,0 +1,209 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/**/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;
+  --color-primary-variant-light: #b7e3fa;
+  --color-secondary-light: #f7a173;
+  --color-secondary-variant-light: #eddfa6;
+  --color-neutral-light: #f8f6f1;
+
+  --gold: #BC955C;
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;
+  --color-primary-variant-dark: #0D81BF;
+  --color-secondary-dark: #984714;
+  --color-secondary-variant-dark: #87721C;
+  --color-neutral-dark: #A38C52;
+
+  --color-footer: #691b31;
+}/**/
+/*=================================== 
+    Top Bar Nav 
+======================================*/ 
+
+
+.top-nav-bar {/*cintillo*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--gold);
+  padding: 5px;
+  color: var(--color-neutral-light);
+}/*cintillo*/
+
+.top-nav-bar h6 {/**/
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}/**/
+
+.logo-container img {/**/
+  vertical-align: middle;
+  padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+}/**/
+
+h6 {/**/
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}/**/
+
+.icon-buttons a {/**/
+  color: var(--color-neutral-light);
+}/**/
+
+.icon-buttons button {/**/
+  background-color: transparent;
+  color: var(--color-secondary-variant-light);
+  border: none;
+  margin-right: 10px;
+}/**/
+
+.icon-buttons a:hover {/**/
+  color: var(--color-neutral-dark);
+  transition-duration: 2ms;
+}/**/
+
+.logo-hide {/**/
+  width: 100px;
+  height: fit-content;
+  margin-left: 0;
+}/**/
+
+.logo-show {/**/
+  width: 100px;
+  height: fit-content;
+  margin-left: 0;
+}/**/
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {/**/
+  .top-nav-bar {
+    display: none;
+  }
+
+  .icon-buttons a {
+    color: var(--color-neutral-light);
+  }
+
+  .icon-buttons button {
+    background-color: transparent;
+    color: var(--color-neutral-light);
+    border: none;
+    margin: 10px;
+  }
+
+  .icon-buttons a:hover {
+    color: var(--color-primary-light);
+    transition-duration: 2ms;
+  }
+
+  h6 {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .logo-container img {
+    width: 30%;
+    height: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-hide {
+    display: none;
+  }
+
+  .logo-show {
+    width: 150px;
+    height: fit-content;
+    background-image: 'https://mic.itesa.edu.mx/img/logos/logo_Itesab.png';
+  }
+}/**/
+ 
+/*============================== 
+    Google fonts
+================================*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+
+/*============================== 
+    Common Styles
+================================*/
+body {/**/
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+  font-size: 18px;
+  /*text color*/
+  color: #025C9A;
+  font-weight: 400;
+  line-height: 1.8;
+}/**/
+
+h1,/**/
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-family: 'Montserrat', serif;
+  color: #1b1644;
+  line-height: normal;
+  letter-spacing: 1px;
+}/**/
+a:hover,
+a:active {
+  color: #027871;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {/**/
+  body {
+    font-size: 17px;
+  }
+}/**/

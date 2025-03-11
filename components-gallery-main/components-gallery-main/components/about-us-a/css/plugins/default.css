@@ -1,0 +1,131 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Multipurpose Responsive + Admin
+    Description: Multipurpose Responsive + Admin
+    Author: Chitrakoot Web
+    Version: 3.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Background color
+    05. Custom
+    06. Border
+    07. Background image
+    08. Margin
+    09. Padding
+    10. Display and float
+    11. Position
+    12. Width
+    13. Responsive Media Query
+    
+---------------------------------- */
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; } /* ABOUT-US-A */
+body{ font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:15px; color:#5e6973; font-weight: 400;line-height: 26px; } /* ABOUT-US-A */
+body, html { -moz-osx-font-smoothing: grayscale; } /* ABOUT-US-A */
+a, a:active, a:focus { color: #5e6973; text-decoration: none; transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -ms-transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;  } /* ABOUT-US-A */
+img {max-width:100%; height:auto; } /* ABOUT-US-A */
+p {margin: 0 0 20px; word-spacing: 1px;} /* ABOUT-US-A */
+ul, ol, dl {list-style-position: outside;} /* ABOUT-US-A */
+ul li { list-style: none; } /* ABOUT-US-A */
+::selection { color: #000; background:#dbdbdb; } /* ABOUT-US-A */
+
+/* ===================================
+    Typography
+====================================== */
+
+/* ABOUT-US-A */
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 20px; padding:0; letter-spacing: 0; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #282b2d; line-height: normal;}
+h1,.h1 {font-size:42px;}
+h2,.h2 {font-size:34px;}
+h3,.h3 {font-size:32px;}
+h4,.h4 {font-size:30px;}
+h5,.h5 {font-size:26px;}
+h6,.h6 {font-size:22px;}
+/* ABOUT-US-A */
+.font-size16 {font-size:16px;} /* ABOUT-US-A */
+.font-size20 {font-size:20px;} /* ABOUT-US-A */
+/* ===================================
+    Custom
+====================================== */
+
+section {padding: 90px 0; overflow: hidden; background: #fff;} /* ABOUT-US-A */
+section.lg {padding: 120px 0; } /* ABOUT-US-A */
+/* box-shadow */
+.box-shadow-large { box-shadow: 0 0 12px rgba(0,0,0,.1);} /* ABOUT-US-A */
+/* z-index */
+.z-index-1 {z-index:1;} /* ABOUT-US-A */
+.no-margin-bottom {margin-bottom:0 !important;} /* ABOUT-US-A */
+.margin-10px-bottom {margin-bottom:10px;} /* ABOUT-US-A */
+.margin-25px-right {margin-right:25px;} /* ABOUT-US-A */
+.no-padding-bottom {padding-bottom:0 !important;} /* ABOUT-US-A */
+.padding-15px-tb {padding-top:15px; padding-bottom:15px;} /* ABOUT-US-A */
+.padding-25px-lr {padding-left:25px; padding-right:25px;} /* ABOUT-US-A */
+.position-relative {position:relative !important;} /* ABOUT-US-A */
+.width-85 {width:85%;} /* ABOUT-US-A */
+@media (max-width: 1199px) {
+    section {padding: 70px 0;} /* ABOUT-US-A */
+    section.lg {padding: 90px 0; } /* ABOUT-US-A */
+/* ABOUT-US-A */
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 18px; padding:0; letter-spacing: 0; }
+    h1 {font-size:40px;}
+    h2 {font-size:32px;}
+    h3 {font-size:30px;}
+    h4 {font-size:28px;}
+    h5 {font-size:24px;}
+    h6 {font-size:20px;}
+/* ABOUT-US-A */
+    .md-padding-50px-right {padding-right:50px !important;} /* ABOUT-US-A */
+}
+
+@media (max-width: 991px) {
+
+/* ABOUT-US-A */
+    /* typography */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 16px; padding:0; letter-spacing: 0;}
+    h1 {font-size:38px;}
+    h2 {font-size:30px;}
+    h3 {font-size:28px;}
+    h4 {font-size:26px;}
+    h5 {font-size:22px;}
+    h6 {font-size:18px;}
+    p { margin: 0 0 15px; }
+/* ABOUT-US-A */
+    section {padding: 50px 0;} /* ABOUT-US-A */
+    section.lg {padding: 70px 0; } /* ABOUT-US-A */
+    .sm-no-padding-right {padding-right:0 !important;} /* ABOUT-US-A */
+}
+
+@media (max-width: 767px) {
+
+    body { font-size: 14px; } /* ABOUT-US-A */
+/* ABOUT-US-A */
+    h1, h2, h3, h4, h5, h6 {margin:0 0 14px; padding:0; letter-spacing: 0;}
+    h1 {font-size:34px;}
+    h2 {font-size:28px;}
+    h3 {font-size:26px;}
+    h4 {font-size:24px;}
+    h5 {font-size:20px;}
+    h6 {font-size:16px;}
+/* ABOUT-US-A */
+}

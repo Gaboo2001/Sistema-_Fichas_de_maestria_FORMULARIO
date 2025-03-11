@@ -1,0 +1,112 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*blog b*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;
+  --color-primary-variant-light: #b7e3fa;
+  --color-secondary-light: #f7a173;
+  --color-secondary-variant-light: #eddfa6;
+  --color-neutral-light: #f8f6f1;
+
+  --gold: #BC955C;
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;
+  --color-primary-variant-dark: #0D81BF;
+  --color-secondary-dark: #984714;
+  --color-secondary-variant-dark: #87721C;
+  --color-neutral-dark: #A38C52;
+
+  --color-footer: #691b31;
+}/*blog b*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+body {/*blog b*/
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+  font-size: 18px;
+  /*text color*/
+  color: #025C9A;
+  font-weight: 400;
+  line-height: 1.8;
+}/*blog b*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-family: 'Montserrat', serif;
+  color: #1b1644;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.min-height-350 {/*blog b*/
+  min-height: 350px;
+}/*blog b*/
+.text-theme-color {/*blog b*/
+  color: #027871;
+}/*blog b*/
+.height-100vh {
+  height: 100vh;
+}
+.bg-img {/*blog b*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*blog b*/
+.bg-theme {
+  background-color: #027871;
+}
+.theme-overlay[data-overlay-dark]:before {
+  background: #027871;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {/*blog b*/
+  body {
+    font-size: 17px;
+  }
+}/*blog b*/
+.section-heading {/*blog b*/
+  margin-bottom: 50px;
+  text-align: center; }/*blog b*/
+@media screen and (max-width: 991px) {
+  .section-heading {/*blog b*/
+    margin-bottom: 30px; }/*blog b*/}
+.read-more {/*blog b*/
+  font-size: 16px;
+  font-weight: 500;
+}/*blog b*/

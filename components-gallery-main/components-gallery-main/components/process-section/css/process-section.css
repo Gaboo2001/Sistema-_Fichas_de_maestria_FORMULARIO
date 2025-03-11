@@ -1,0 +1,120 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Onepage Agency Template
+    Description: Onepage Agency Template
+    Author: Chitrakoot Web
+
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google fonts
+    02. Common Styles
+    03. Section heading
+    04. Slider
+    05. Navbar
+    06. Header
+    07. Sidebar
+    08. Other Section
+    9 tabs
+    09. Blog
+    10. Footer
+   
+---------------------------------- */
+
+:root {/*process*/
+  /* Paleta Oficial - Light */
+
+  --color-primary-light: #10a5b2;/*process*/
+  --color-primary-variant-light: #b7e3fa;/*process*/
+  --color-secondary-light: #f7a173;/*process*/
+  --color-secondary-variant-light: #eddfa6;/*process*/
+  --color-neutral-light: #f8f6f1;/*process*/
+
+  --gold: #BC955C;/*process*/
+
+  /* Paleta Oficial - Dark */
+
+  --color-primary-dark: #006971;/*process*/
+  --color-primary-variant-dark: #0D81BF;/*process*/
+  --color-secondary-dark: #984714;/*process*/
+  --color-secondary-variant-dark: #87721C;/*process*/
+  --color-neutral-dark: #A38C52;/*process*/
+
+  --color-footer: #691b31;/*process*/
+}/*process*/
+
+/*============================== 
+    Google fonts
+================================*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+
+/*============================== 
+    Common Styles
+================================*/
+body {/*process*/
+  font-family: 'Montserrat', sans-serif;/*process*/
+  -webkit-font-smoothing: antialiased;/*process*/
+  /* font-smoothing: antialiased; */
+  font-size: 18px;/*process*/
+  /*text color*/
+  color: #025C9A;/*process*/
+  font-weight: 400;/*process*/
+  line-height: 1.8;/*process*/
+}/*process*/
+
+h1,/*process*/
+h2,/*process*/
+h3,/*process*/
+h4,/*process*/
+h5,/*process*/
+h6 {/*process*/
+  margin: 0 0 15px;/*process*/
+  padding: 0;/*process*/
+  letter-spacing: 0;/*process*/
+  font-weight: 500;/*process*/
+  font-family: 'Montserrat', serif;/*process*/
+  color: #1b1644;/*process*/
+  line-height: normal;/*process*/
+  letter-spacing: 1px;/*process*/
+}/*process*/
+
+
+/* work process */
+.work-process {/*process*/
+  position: relative;/*process*/
+}/*process*/
+
+.work-process .process-num-box {/*process*/
+  position: relative;/*process*/
+  display: inline-block;/*process*/
+  margin-bottom: 30px;/*process*/
+}/*process*/
+
+.work-process h5 {/*process*/
+  font-size: 20px;/*process*/
+  font-weight: 600;/*process*/
+}/*process*/
+
+.work-process p {/*process*/
+  margin: 0 auto;/*process*/
+  width: 85%;/*process*/
+}/*process*/
+
+.work-process .process-icon {/*process*/
+  width: 140px;/*process*/
+  height: 140px;/*process*/
+  border: 3px dotted #e4e4e4;/*process*/
+  line-height: 140px;/*process*/
+  color: #027871;/*process*/
+  background: #ecf7fe;/*process*/
+  position: relative;/*process*/
+  border-radius: 50%;/*process*/
+  font-size: 40px;/*process*/
+  text-align: center;/*process*/
+}/*process*/
+
+  .work-process p {/*process*/
+    width: 90%;/*process*/
+  }/*process*/

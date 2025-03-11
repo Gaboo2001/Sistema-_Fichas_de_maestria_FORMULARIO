@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Crizal - Multipurpose Responsive + Admin
+    Description: Multipurpose Responsive + Admin
+    Author: Chitrakoot Web
+    Version: 3.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------
+
+Table of contents
+        
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Background color
+    05. Custom
+    06. Border
+    07. Background image
+    08. Margin
+    09. Padding
+    10. Display and float
+    11. Position
+    12. Width
+    13. Responsive Media Query
+    
+---------------------------------- */
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }/*process*/
+body{ font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:15px; color:#5e6973; font-weight: 400;line-height: 26px; }/*process*/
+::selection { color: #000; background:#dbdbdb; }/*process*/
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 20px; padding:0; letter-spacing: 0; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #282b2d; line-height: normal;}/*process*/
+
+/* ===================================
+    Custom
+====================================== */
+
+section {padding: 90px 0; overflow: hidden; background: #fff;}/*process*/
+section.lg {padding: 120px 0; }/*process*/
+
+/*============================== 
+    Position
+================================*/
+
+.position-inherit {position:inherit !important;}/*process*/
+

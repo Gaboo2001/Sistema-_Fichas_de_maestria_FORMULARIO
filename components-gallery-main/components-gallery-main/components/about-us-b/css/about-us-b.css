@@ -1,0 +1,166 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap");
+
+/*============================== 
+    Common Styles
+================================*/
+body { /* ABOUT US B */
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+  font-size: 18px;
+  /*text color*/
+  color: #025C9A;
+  font-weight: 400;
+  line-height: 1.8;
+} /* ABOUT US B */
+
+h1, /* ABOUT US B */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-family: 'Montserrat', serif;
+  color: #1b1644;
+  line-height: normal;
+  letter-spacing: 1px;
+} /* ABOUT US B */
+
+
+
+.text-theme-color { /* ABOUT US B */
+  color: #027871;
+} /* ABOUT US B */
+
+.height-100vh {
+  height: 100vh;
+}
+
+.bg-img { /* ABOUT US B */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+} /* ABOUT US B */
+
+.bg-theme {
+  background-color: #027871;
+}
+
+.theme-overlay[data-overlay-dark]:before {
+  background: #027871;
+}
+
+a:hover, /* ABOUT US B */
+a:active { 
+  color: #027871; 
+  text-decoration: none; 
+} /* ABOUT US B */
+
+@media screen and (min-width: 1200px) { /* ABOUT US B */
+  .container {
+    max-width: 1170px;
+    width: 100%;
+  }
+} /* ABOUT US B */
+
+@media screen and (max-width: 1199px) { /* ABOUT US B */
+  body {
+    font-size: 17px;
+  }
+} /* ABOUT US B */
+
+
+.story-video { /* ABOUT US B */
+  height: 100%; } /* ABOUT US B */
+
+.video_btn { /* ABOUT US B */
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background: #027871;
+  text-align: center;
+  display: inline-block;
+  line-height: 80px;
+  color: #fff;
+  border-radius: 50%;
+  transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -webkit-transition-duration: 0s;
+  -o-transition-duration: 0s; } /* ABOUT US B */
+  .video_btn:hover i, .video_btn:focus i { /* ABOUT US B */
+    color: #fff; } /* ABOUT US B */
+  .video_btn:after { /* ABOUT US B */
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: .3;
+    animation: pulse-border 1500ms ease-out infinite; } /* ABOUT US B */
+  .video_btn:before { /* ABOUT US B */
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 95px;
+    width: 95px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: .3;
+    animation: pulse-border 1500ms ease-out infinite; } /* ABOUT US B */
+
+
+@media screen and (max-width: 991px) { /* ABOUT US B */
+  .story-video { 
+    min-height: 325px; } /* ABOUT US B */
+
+  .video_btn { /* ABOUT US B */
+    height: 70px; 
+    width: 70px; 
+    line-height: 70px; } /* ABOUT US B */
+    .video_btn:after { /* ABOUT US B */
+      height: 70px; 
+      width: 70px; } /* ABOUT US B */
+    .video_btn:before { /* ABOUT US B */
+      height: 85px; 
+      width: 85px; } /* ABOUT US B */
+
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.2); } } }
+@media screen and (max-width: 767px) { /* ABOUT US B */
+  .story-video { 
+    min-height: 200px; } /* ABOUT US B */
+
+  .video_btn {/* ABOUT US B */
+    height: 60px; 
+    width: 60px; 
+    line-height: 60px; }/* ABOUT US B */
+    .video_btn:after { /* ABOUT US B */
+      height: 60px; 
+      width: 60px; } /* ABOUT US B */
+    .video_btn:before { /* ABOUT US B */
+      height: 75px; 
+      width: 75px; } } /* ABOUT US B */
